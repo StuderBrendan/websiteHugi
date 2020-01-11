@@ -1,0 +1,6 @@
+#sticky-footer {
+    flex-shrink: none;
+  }
+  #nav{
+    box-shadow: 0px -5px 10px rgb(87, 87, 87) inset;
+  }

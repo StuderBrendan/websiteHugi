@@ -1,0 +1,33 @@
+<ngb-carousel *ngIf="images" id="filsdepute">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" alt="Random first slide" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="Random second slide" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2]" alt="Random third slide" class="w-100">
+      </div>
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <div class="container-flow p-3">
+    <h2>Titre</h2>
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque fermentum tempus convallis. Donec sagittis sit amet ipsum congue tempus. Curabitur ut massa sit amet nunc gravida elementum. Aliquam erat volutpat. Etiam sed eros tincidunt enim aliquam placerat eget a odio. Etiam ultricies imperdiet risus id mollis. Pellentesque vel placerat risus. Sed ut odio non turpis posuere commodo. Mauris auctor lectus orci, id feugiat neque ultrices sit amet. </p>
+  </div>
