@@ -1,4 +1,22 @@
-<div class="jumbotron">
-    <h1>Salle</h1>
-    <p>Coucou</p>
+<div class="jumbotron ">
+  <div class="container">
+    <h1 class="display-3">Salle</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper iaculis dictum. Vestibulum vitae
+      magna arcu. Donec consectetur felis et tincidunt porttitor. Vestibulum ante ipsum primis in faucibus orci luctus
+      et
+      ultrices posuere cubilia Curae; Nulla eu aliquet neque. Donec ligula diam, gravida ut facilisis et, viverra at
+      odio.
+      Suspendisse potenti.
+    </p>
+  </div>
 </div>
+
+<ngb-carousel class="carousel-fade" *ngIf="images" [showNavigationIndicators]="showNavigationIndicators"
+  [interval]=3000>
+  <ng-template ngbSlide *ngFor="let image of images">
+    <div class="picsum-img-wrapper">
+      <img [src]="image" alt="Random slide" class="w-100">
+    </div>
+  </ng-template>
+</ngb-carousel>

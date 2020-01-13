@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//import { dirname } from 'path';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  images = [1, 2, 3].map((n) => `../../assets/Images/carousel${n}.jpg`);
+  images = [1, 2, 3].map((n) => `../../assets/Images/Test_${n}.JPG`);
 
 
-  constructor() { 
+  constructor() {
   }
 
   ngOnInit() {

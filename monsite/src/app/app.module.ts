@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import { HomeComponent }   from './home/home.component';
-import { Test1Component }     from './test1/test1.component';
+import { HomeComponent } from './home/home.component';
+import { Test1Component } from './test1/test1.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AppartementsComponent } from './appartements/appartements.component';
 import { SalleComponent } from './salle/salle.component';
