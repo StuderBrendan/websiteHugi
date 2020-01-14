@@ -27,7 +27,7 @@
       </p>
     </div>
     <div class="col-md-4">
-      <ngb-carousel class="carousel-fade" *ngIf="images_chambres" [interval]=3000>
+      <ngb-carousel class="carousel-fade" *ngIf="images_chambres" [showNavigationIndicators]="false" [interval]=3000>
         <ng-template ngbSlide *ngFor="let image of images_chambres">
           <div class="picsum-img-wrapper">
             <img [src]="image" alt="Random slide" class="w-100">
@@ -41,7 +41,7 @@
 <div class="container p-3">
   <div class="row">
     <div class="col-md-4">
-      <ngb-carousel class="carousel-fade" *ngIf="images_salon" [interval]=3000>
+      <ngb-carousel class="carousel-fade" *ngIf="images_salon" [showNavigationIndicators]="false" [interval]=3000>
         <ng-template ngbSlide *ngFor="let image of images_salon">
           <div class="picsum-img-wrapper">
             <img [src]="image" alt="Random slide" class="w-100">
@@ -81,7 +81,7 @@
       </p>
     </div>
     <div class="col-md-4">
-      <ngb-carousel class="carousel-fade" *ngIf="images_bains" [interval]=3000>
+      <ngb-carousel class="carousel-fade" *ngIf="images_bains" [showNavigationIndicators]="false" [interval]=3000>
         <ng-template ngbSlide *ngFor="let image of images_bains">
           <div class="picsum-img-wrapper">
             <img [src]="image" alt="Random slide" class="w-100">

@@ -12,8 +12,7 @@
   </div>
 </div>
 
-<ngb-carousel class="carousel-fade" *ngIf="images" [showNavigationIndicators]="showNavigationIndicators"
-  [interval]=3000>
+<ngb-carousel class="carousel carousel-fade" *ngIf="images" [showNavigationIndicators]="false" [interval]=3000>
   <ng-template ngbSlide *ngFor="let image of images">
     <div class="picsum-img-wrapper">
       <img [src]="image" alt="Random slide" class="w-100">

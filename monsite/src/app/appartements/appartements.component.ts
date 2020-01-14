@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-appartements',
   templateUrl: './appartements.component.html',
-  styleUrls: ['./appartements.component.css']
+  styleUrls: ['./appartements.component.css'],
+  providers: [NgbCarouselConfig]
 })
 export class AppartementsComponent implements OnInit {
   images_chambres = [1, 2, 3, 4, 5, 6].map((n) => `../../assets/Images/Chambre_${n}.JPG`);
